@@ -16,7 +16,7 @@
 }
 
 html, body{
-  background: var(--bg);
+  background: #fff;
   color: var(--text);
   min-height: 100%;
   max-width: 2500px;
@@ -31,7 +31,7 @@ html, body{
 
 button, button:focus, input, input:focus, textarea, textarea:focus{
   background: transparent;
-  color: var(--text);
+  color: #000;
   border: none;
   outline: none;
 }
@@ -67,12 +67,12 @@ a{
 
 /* Track */
 ::-webkit-scrollbar-track{
-  background: var(--bg);
+  background: #8E8E93;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb{
-  background: var(--text);
+  background: #000;
 }
 
 @media (max-width: 768px){

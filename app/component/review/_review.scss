@@ -1,0 +1,64 @@
+.review{
+  position: relative;
+  padding: 1.5rem 2rem;
+  .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 4rem;
+    .title{
+      font-size: 1.7rem;
+      font-weight: 600;
+      .arrow{
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        .left{
+          margin-right: 1rem;
+        }
+        & img{
+          width: 3rem;
+          height: 3rem;
+          border: 0.0625rem solid #E2A7F7;
+          border-radius: 50%;
+          cursor: pointer;
+          padding: 0.8rem;
+        }
+      }
+    }
+  }
+  .reviews{
+    display: flex;
+    justify-content: center;
+    .scroll{
+      // max-width: 800px;
+      display: flex;
+      gap: 0.5rem;
+      overflow: auto;
+      &::-webkit-scrollbar, .hide{
+        display: none;
+      }
+      .content{
+        min-width: 15rem;
+        max-width: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
+        text-align: center;
+        & img{
+          width: 8rem;
+          height: 8rem;
+          border: 0.2rem solid #8300FF;
+          border-radius: 50%;
+          padding: 0.5rem;
+        }
+        .name{
+          font-size: 1.1rem;
+          font-weight: 600;
+        }
+      }
+    }
+    
+  }
+}
