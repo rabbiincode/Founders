@@ -1,0 +1,1 @@
+export const headerLink = ['home', 'about us', 'gallery', 'contact us']

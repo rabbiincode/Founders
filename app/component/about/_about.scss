@@ -1,0 +1,87 @@
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1.5rem 2rem;
+  .founders{
+    width: 50%;
+    height: 25rem;
+    max-width: 40rem;
+  }
+  .content{
+    position: relative;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .line{
+      position: absolute;
+      left: -2rem;
+      top: 0;
+      bottom: 0;
+      width: 1.5rem;
+      height: 94%;
+      margin: auto;
+      background: transparent;
+      border: 0.2rem solid #8300FF;
+      border-right: none;
+      border-radius: 0.7rem 0 0 0.7rem;
+      padding: 1rem 0;
+    }
+    .title{
+      font-size: 1.7rem;
+      font-weight: 600;
+    }
+    .desc{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      color: #8E8E93;
+      font-size: 1rem;
+    }
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+      & button{
+        color: #8300FF;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        border: 0.0625rem solid #8300FF;
+        border-radius: 2rem;
+        padding: 0.7rem 2rem;
+        & img{
+          width: 1.1rem;
+          height: 1.1rem;
+        }
+      }
+      .register{
+        background: #8300FF;
+        color: #FDF7FF;
+      }
+    }
+    .more{
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .about{
+    flex-direction: column;
+    .founders{
+      width: 100%;
+      max-width: 100rem;
+    }
+    .content{
+      max-width: 100%;
+    }
+  }
+}
