@@ -10,7 +10,7 @@ const Learn = () => {
         <Image src='/images/about/play.svg' alt='img' width={50} height={50} className='play'/>
       </div>
       <div className='content'>
-      <p className='more'>At Founder&#39;s Friday, Every Friday Is a Learning Experience!</p>
+      <p className='more more1'>At Founder&#39;s Friday, Every Friday Is a Learning Experience!</p>
         <div className='desc'>
           <p>Join us in our mission to transform ideas into impact and shape the future of Abuja&#39;s startup landscape.</p>
         </div>

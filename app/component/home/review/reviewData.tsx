@@ -1,6 +1,6 @@
-import { review } from "@/app/interfaces/review";
+import { Review } from "@/app/interfaces/review";
 
-export const reviews: review[] = [
+export const reviews: Review[] = [
   {
     image: '/images/review/pics1.png',
     name: 'Mr Belba Ngoy',

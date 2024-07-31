@@ -60,6 +60,15 @@ a{
   text-decoration: none !important;
 }
 
+.hide-error{
+  color: #d65353;
+  font-size: 1rem !important;
+  opacity: 0;
+}
+.show-error{
+  opacity: 1;
+}
+
 /* width */
 ::-webkit-scrollbar{
   width: 0.8rem;

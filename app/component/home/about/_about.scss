@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding: 1.5rem 2rem;
+  padding: 0 2rem;
   .founders{
     width: 50%;
     height: 25rem;
@@ -25,8 +25,12 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      width: 3.5rem;
+      height: 3.5rem;
       background: #D9D9D9;
       border-radius: 50%;
+      cursor: pointer;
+      padding: 0.5rem;
     }
   }
   .content{
@@ -51,7 +55,7 @@
     }
     .title{
       font-size: 1.7rem;
-      font-weight: 600;
+      font-weight: 700;
     }
     .desc{
       display: flex;
@@ -87,8 +91,11 @@
       }
     }
     .more{
-      font-size: 1rem;
+      font-size: 1.1rem;
       font-weight: 600;
+    }
+    .more1{
+      font-size: 1.2rem;
     }
   }
 }

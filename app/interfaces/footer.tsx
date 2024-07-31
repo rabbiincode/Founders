@@ -1,4 +1,4 @@
-export interface socialIcon{
+export interface SocialIcon{
   image: string
   link: string
 }

@@ -1,6 +1,6 @@
-import { socialIcon } from "@/app/interfaces/footer";
+import { SocialIcon } from "@/app/interfaces/footer";
 
-export const socialIcons: socialIcon[] = [
+export const socialIcons: SocialIcon[] = [
   {
     image: '/images/footer/facebook.svg',
     link: ''

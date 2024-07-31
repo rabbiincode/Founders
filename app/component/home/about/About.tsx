@@ -7,7 +7,7 @@ const About = () => {
     <div className='about'>
       <Image src='/images/about/founders.png' alt='img' width={300} height={300} className='founders'/>
       <div className='content'>
-      <div className='line'></div>
+        <div className='line'></div>
         <p className='title'>Who Are We?</p>
         <div className='desc'>
           <p>
