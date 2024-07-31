@@ -3,7 +3,7 @@ import Image from 'next/image'
 import './_home.scss'
 
 const HomePage = () => {
-  const logo = ['logo1', 'logo2', 'logo3', 'logo4', 'logo5']
+  const logo = ['pics1', 'pics2', 'pics3', 'pics4', 'pics5']
   return (
     <div className='home'>
       <div className='content'>
@@ -20,7 +20,7 @@ const HomePage = () => {
         </button>
         <small className='meet'>Join Us for our next meetup on the 26th of July 2024</small>
         <div className='logos'>
-          {logo.map((image, i) => <Image key={i} src={`/images/home/${image}.png `} alt='logo' width={150} height={150}/>)}
+          {logo.map((image, i) => <Image key={i} src={`/images/home/${image}.png `} alt='img' width={150} height={150}/>)}
         </div>
         <div className='collaborate'>
           Become a collaborator today

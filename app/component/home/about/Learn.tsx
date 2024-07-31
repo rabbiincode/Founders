@@ -7,7 +7,7 @@ const Learn = () => {
     <div className='about'>
       <div className='video'>
         <Image src='/images/about/founders1.png' alt='img' width={300} height={300} className='founders1'/>
-        <Image src='/images/about/play.svg' alt='img' width={50} height={50} className='play'/>
+        <Image src='/images/about/video.svg' alt='img' width={50} height={50} className='play'/>
       </div>
       <div className='content'>
       <p className='more more1'>At Founder&#39;s Friday, Every Friday Is a Learning Experience!</p>
