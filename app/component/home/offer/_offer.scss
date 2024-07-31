@@ -1,0 +1,89 @@
+.offer{
+  padding: 1.5rem 2rem;
+  .title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .accordion{
+    max-width: 1500px;
+    margin: auto;
+    &-item{
+      background: none;
+      outline: none;
+      box-shadow: none;
+      padding: 0.5rem 0;
+      border-bottom: 0.0625rem solid #75687E;
+    }
+    & button{
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-top: 2rem;
+    }
+  }
+
+  .content{
+    font-size: 2rem;
+  }
+  .MuiAccordionSummary-root{
+    padding: 0;
+  }
+  .question{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    .bold{
+      min-width: 20rem;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      .circle{
+        background: #8300FF;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+      }
+    }
+    & span{
+      color: #75687E;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-right: 3rem;
+    }
+  }
+  .answer{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    opacity: 0.9;
+    padding: 1.5rem 0;
+  }
+
+  .contact{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    & span{
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+  & img{
+    width: 2rem;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 769px){
+  .offer{
+    .question{
+      flex-direction: column;
+    }
+  }
+}

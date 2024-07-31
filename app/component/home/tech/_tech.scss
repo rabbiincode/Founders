@@ -1,5 +1,11 @@
 .tech{
   padding: 1.5rem 2rem 5rem;
+  .scattered-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
   .logo{
     display: flex;
     align-items: center;
@@ -18,6 +24,17 @@
     text-align: center;
     margin: auto;
     padding: 4rem 0 2rem;
+  }
+  .title1{
+    padding: 4rem 0 0;
+  }
+  .desc{
+    max-width: 670px;
+    color: #8E8E93;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: auto;
+    padding: 1rem 0 2rem;
   }
   & button{
     color: #9524FF;

@@ -38,6 +38,10 @@
 @media (max-width: 576px){
   .footer{
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+    .link{
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 }

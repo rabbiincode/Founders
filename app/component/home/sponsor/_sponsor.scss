@@ -1,0 +1,157 @@
+.sponsor{
+  padding: 1.5rem 2rem;
+  .title{
+    color: #9524FF;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .title1{
+    max-width: 400px;
+    color: #000;
+    font-size: 2.7rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    margin-top: 0.7rem;
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 3rem;
+    .events{
+      max-width: 600px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      border: 0.0625rem solid #CA92FF;
+      border-radius: 1rem;
+      padding: 2rem;
+      .circle{
+        width: 15rem;
+        height: 15rem;
+        background: #A649FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 0.0625rem solid #9524FF;
+        border-radius: 50%;
+        padding: 2rem;
+        & h1{
+          font-size: 1.3rem !important;
+        }
+        & span{
+          color: #3C3641;
+          font-size: 1rem;
+        }
+      }
+      .light{
+        background: #DCB6FF;
+      }
+    }
+    .impact{
+      max-width: 600px;
+      .title2{
+        color: #000;
+      }
+      .desc{
+        color: #605668;
+        font-size: 1.4rem;
+        font-style: oblique;
+        margin: 0.5rem 0;
+      }
+      & span{
+        color: #2C2830;
+        font-size: 1.1rem;
+      }
+      & form{
+        margin-top: 1.5rem;
+        .box{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          .input{
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            & label{
+              font-size: 1.1rem;
+              font-weight: 600;
+              margin-top: 1.5rem;
+              & small{
+                font-size: 1rem;
+                opacity: 0.5;
+              }
+            }
+            & input{
+              font-size: 1.2rem;
+              border: 0.0625rem solid #000;
+              border-radius: 0.5rem;
+              padding: 1rem 0.5rem;
+              &::placeholder{
+                font-size: 1.1rem;
+                opacity: o,7
+                ;
+              }
+            }
+          }
+        }
+        & button{
+          background: #9524FF;
+          color: #FDF7FF;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 1.1rem;
+          font-weight: 500;
+          border: 0.0625rem solid #9524FF;
+          border-radius: 0.5rem;
+          padding: 0.7rem 2rem;
+          margin-top: 2rem;
+          & img{
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1250px){
+  .sponsor{
+    .content{
+      gap: 2rem;
+      .events{
+        padding: 0.5rem;
+        .circle{
+          width: 13rem;
+          height: 13rem;
+          padding: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1045px){
+  .sponsor{
+    .content{
+      flex-direction: column;
+      align-items: center;
+      .impact{
+        & form{
+          .box{
+            flex-direction: column;
+            .input{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -24,10 +24,10 @@ const Header = ({ active, handleActive } : { active: string, handleActive: (link
           </div>
           <button>
             Register
-            <Image src='/images/header/arrow-right.svg' alt='logo' width={20} height={20}/>
+            <Image src='/images/header/arrow-right.svg' alt='img' width={20} height={20}/>
           </button>
         </div>
-        <Image src='/images/header/menu.svg' alt='logo' width={30} height={30} onClick={toggleSidebar} className='menu'/>
+        <Image src='/images/header/menu.svg' alt='img' width={30} height={30} onClick={toggleSidebar} className='menu'/>
       </div>
       <div className={`hide ${sidebar && 'show'}`}>
         <Sidebar active={active} handleActive={handleActive} toggleSidebar={toggleSidebar}/>

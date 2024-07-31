@@ -23,11 +23,11 @@ const About = () => {
         <div className='buttons'>
           <button className='register'>
             Register
-            <Image src='/images/about/arrow-right.svg' alt='logo' width={20} height={20}/>
+            <Image src='/images/about/arrow-right.svg' alt='img' width={20} height={20}/>
           </button>
           <button>
             Donate
-            <Image src='/images/about/money.svg' alt='logo' width={20} height={20}/>
+            <Image src='/images/about/money.svg' alt='img' width={20} height={20}/>
           </button>
         </div>
         <p className='more'>Founder&#39;s Friday is more than just a meetup — it&#39;s a movement.</p>
