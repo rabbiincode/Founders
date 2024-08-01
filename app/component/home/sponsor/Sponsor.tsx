@@ -9,7 +9,9 @@ import './_sponsor.scss'
 const Sponsor = () => {
   const [send, setSend] = useState(false)
   const {formState: {errors}, handleSubmit, register: sponsor} = useForm<SponsorForm>()
-  const handleSponsor = (input: SponsorForm) => {}
+  const handleSponsor = (input: SponsorForm) => {
+    setSend(true)
+  }
   return (
     <div className='sponsor'>
       <p className='title'>Sponsor The Next Friday</p>
@@ -59,6 +61,7 @@ const Sponsor = () => {
               Sponsor
               <Image src='/images/about/arrow-right.svg' alt='img' width={30} height={30}/>
             </button>
+            {send && <p className='send'>Thanks for choosing us. We&#39;ll be in touch soon.</p>}
           </form>
         </div>
       </div>
